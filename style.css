@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-header img {
+    width: 40px;
+}
+
+.navLocator:hover,
+.navlink:hover {
+  border-radius: 10%;
+  border: 1px solid var(--bs-warning);
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.form-control::placeholder {
+    font-size: 0.9rem;
+}
+
+.navBrandName {
+  font-family: "Playfair Display", serif;
+}
+
+.search-btn {
+  background-color: #febd69;
+  border: none;
+}
+
+.form-select {
+  color: #ffffff;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+  margin-top: 0;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.dropdown-item:hover {
+  background-color: var(--bs-warning);
+}
+
+.dropdown:hover .nav-link {
+  background-color: var(--bs-warning); 
+}
+.dropdown a:hover .nav-link {
+  color: var(--bs-dark); 
+}
+.dropdown-toggle::after {
+  display: inline-block;
+  margin-left: 5px;
+  vertical-align: middle;
+}
