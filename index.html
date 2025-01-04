@@ -8,9 +8,7 @@
     <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
-        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
@@ -40,7 +38,7 @@
                             <p style="font-size: 15px; font-weight: 700; margin: 0;">Update location</p>
                         </div>
                     </a>
-                    <form class="d-flex flex-grow-1 mx-2 mt-2 mt-lg-0">
+                    <form class="d-none d-lg-flex flex-grow-1 mx-2 mt-2 mt-lg-0">
                         <div class="input-group">
                             <div class="dropdown">
                                 <button class="btn btn-light dropdown-toggle" type="button" id="dropdownCategory"
@@ -48,16 +46,15 @@
                                     All
                                 </button>
                                 <ul class="dropdown-menu" aria-labelledby="dropdownCategory">
-                                    <li><a class="dropdown-item" href="#">All</a></li>
-                                    <li><a class="dropdown-item" href="#">Electronics</a></li>
-                                    <li><a class="dropdown-item" href="#">Books</a></li>
-                                    <li><a class="dropdown-item" href="#">Fashion</a></li>
-                                    <li><a class="dropdown-item" href="#">Home & Kitchen</a></li>
-                                    <li><a class="dropdown-item" href="#">Beauty & Personal Care</a></li>
-                                    <li><a class="dropdown-item" href="#">Sports & Outdoors</a></li>
-                                    <li><a class="dropdown-item" href="#">Toys & Games</a></li>
-                                    <li><a class="dropdown-item" href="#">Health & Wellness</a></li>
-                                    <li><a class="dropdown-item" href="#">Automotive</a></li>
+                                    <li><a class="dropdown-item p-2" href="#">Electronics</a></li>
+                                    <li><a class="dropdown-item p-2" href="#">Books</a></li>
+                                    <li><a class="dropdown-item p-2" href="#">Fashion</a></li>
+                                    <li><a class="dropdown-item p-2" href="#">Home & Kitchen</a></li>
+                                    <li><a class="dropdown-item p-2" href="#">Beauty & Personal Care</a></li>
+                                    <li><a class="dropdown-item p-2" href="#">Sports & Outdoors</a></li>
+                                    <li><a class="dropdown-item p-2" href="#">Toys & Games</a></li>
+                                    <li><a class="dropdown-item p-2" href="#">Health & Wellness</a></li>
+                                    <li><a class="dropdown-item p-2" href="#">Automotive</a></li>
                                 </ul>
                             </div>
                             <input class="form-control" type="search" placeholder="Search SwiftCart"
@@ -67,22 +64,27 @@
                             </button>
                         </div>
                     </form>
-                    <ul class="navbar-nav mx-auto align-items-center">
+                    <ul class="navbar-nav mx-auto align-items-start p-2">
                         <li class="dropdown">
                             <a href="#" class="nav-link text-light btn btn-sm dropdown-toggle" type="button"
                                 id="dropdownLogin" data-bs-toggle="dropdown" aria-expanded="false">
                                 <i class="fas fa-sign-in-alt"></i> Login
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="dropdownLogin">
-                                <li><a class="dropdown-item" href="#">My Profile</a></li>
-                                <li><a class="dropdown-item" href="#">Orders</a></li>
-                                <li><a class="dropdown-item" href="#">Wishlists</a></li>
-                                <li><a class="dropdown-item" href="#">Rewards</a></li>
+                                <li><a class="dropdown-item p-2" href="#"><i
+                                            class="fa-regular fa-circle-user pe-1 fs-5"></i>My Profile</a></li>
+                                <li><a class="dropdown-item p-2" href="#"><i
+                                            class="fa-regular fa-heart pe-1 fs-5"></i>Wishlists</a></li>
+                                <li><a class="dropdown-item p-2" href="#"><i
+                                            class="fa-solid fa-cube pe-1 fs-5"></i>Orders</a></li>
+                                <li><a class="dropdown-item p-2" href="#"><i
+                                            class="fa-solid fa-gift pe-1 fs-5"></i>Rewards</a></li>
                                 <li>
                                     <hr class="dropdown-divider">
                                 </li>
                                 <li class="d-flex">
-                                    <a class="dropdown-item" href="#">New Customer</a>
+                                    <a class="dropdown-item" href="#"><i class="fa-solid fa-user-plus"></i>New
+                                        Customer</a>
                                     <a href="#" class="text-decoration-none text-primary">SignUp</a>
                                 </li>
                             </ul>
@@ -111,45 +113,176 @@
                 </a>
                 <div class="col-2">
                     <div class="dropdown text-center">
-                        <div class="dropdown-toggle d-flex flex-column align-items-center" id="qc-fashion" ata-bs-toggle="dropdown"
-                            aria-expanded="false">
+                        <div class="dropdown-toggle d-flex flex-column align-items-center" id="qc-fashion"
+                            data-bs-toggle="dropdown" aria-expanded="false">
                             <img src="images/fashion.png" width="60rem" alt="image">
                             <p class="mb-0">Fashion</p>
                         </div>
                         <ul class="dropdown-menu" aria-labelledby="qc-fashion">
-                            <li><a class="dropdown-item" href="#">My Profile</a></li>
-                            <li><a class="dropdown-item" href="#">Orders</a></li>
-                            <li><a class="dropdown-item" href="#">Wishlists</a></li>
-                            <li><a class="dropdown-item" href="#">Rewards</a></li>
-                            <li>
-                                <hr class="dropdown-divider">
+                            <li class="dropright">
+                                <a class="dropdown-item p-3" href="#">
+                                    Men's Top Wear
+                                </a>
+                                <ul class="dropdownmenuv list-unstyled shadow">
+                                    <li><a class="dropdownitem text-decoration-none text-dark p-3 d-block fw-bold"
+                                            href="#">More in Men's Top Wear</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdownitem text-decoration-none text-dark p-3 d-block"
+                                            href="#">Men's T-Shirt</a></li>
+                                    <li><a class="dropdownitem text-decoration-none text-dark p-3 d-block"
+                                            href="#">Men's Casuals Shirt</a></li>
+                                    <li><a class="dropdownitem text-decoration-none text-dark p-3 d-block"
+                                            href="#">Men's Formal Shirt</a></li>
+                                    <li><a class="dropdownitem text-decoration-none text-dark p-3 d-block"
+                                            href="#">Men's Kurtas</a></li>
+                                </ul>
                             </li>
-                            <li class="d-flex">
-                                <a class="dropdown-item" href="#">New Customer</a>
-                                <a href="#" class="text-decoration-none text-primary">SignUp</a>
+                            <li class="dropright">
+                                <a class="dropdown-item p-3" href="#">
+                                    Men's Bottom Wear
+                                </a>
+                                <ul class="dropdownmenuv list-unstyled shadow">
+                                    <li><a class="dropdownitem text-decoration-none text-dark p-3 d-block fw-bold"
+                                            href="#">More in Men's Bottom Wear</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdownitem text-decoration-none text-dark p-3 d-block"
+                                            href="#">Men's Jeans</a></li>
+                                    <li><a class="dropdownitem text-decoration-none text-dark p-3 d-block"
+                                            href="#">Men's Trousers</a></li>
+                                    <li><a class="dropdownitem text-decoration-none text-dark p-3 d-block"
+                                            href="#">Men's Trackpants</a></li>
+                                    <li><a class="dropdownitem text-decoration-none text-dark p-3 d-block"
+                                            href="#">Men's Shorts</a></li>
+                                    <li><a class="dropdownitem text-decoration-none text-dark p-3 d-block"
+                                            href="#">Men's Cargo</a></li>
+                                </ul>
                             </li>
+                            <li class="dropright">
+                                <a class="dropdown-item p-3" href="#">
+                                    Women Western
+                                </a>
+                                <ul class="dropdownmenuv list-unstyled shadow">
+                                    <li><a class="dropdownitem text-decoration-none text-dark p-3 d-block fw-bold"
+                                            href="#">More in Women Western</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdownitem text-decoration-none text-dark p-3 d-block"
+                                            href="#">Women Jeans</a></li>
+                                    <li><a class="dropdownitem text-decoration-none text-dark p-3 d-block"
+                                            href="#">Women Tops</a></li>
+                                    <li><a class="dropdownitem text-decoration-none text-dark p-3 d-block"
+                                            href="#">Women Dresses</a></li>
+                                    <li><a class="dropdownitem text-decoration-none text-dark p-3 d-block"
+                                            href="#">Women T-Shirt and Polo T-Shirt</a></li>
+                                    <li><a class="dropdownitem text-decoration-none text-dark p-3 d-block"
+                                            href="#">Women Trousers</a></li>
+                                </ul>
+                            </li>
+                            <li><a class="dropdown-item p-3" style="font-size: .8rem;" href="#">Men Foootwear</a></li>
+                            <li><a class="dropdown-item p-3" style="font-size: .8rem;" href="#">Women Foootwear</a></li>
+                            <li><a class="dropdown-item p-3" style="font-size: .8rem;" href="#">Kids</a></li>
+                            <li><a class="dropdown-item p-3" style="font-size: .8rem;" href="#">Wateches and
+                                    Accessories</a></li>
+                            <li><a class="dropdown-item p-3" style="font-size: .8rem;" href="#">Bags, suitcases and
+                                    luggage</a></li>
+                            <li><a class="dropdown-item p-3" style="font-size: .8rem;" href="#">Essentials</a></li>
                         </ul>
                     </div>
                 </div>
                 <div class="col-2">
                     <div class="dropdown text-center">
-                        <div class="dropdown-toggle d-flex flex-column align-items-center" id="qc-fashion" ata-bs-toggle="dropdown"
-                            aria-expanded="false">
+                        <div class="dropdown-toggle d-flex flex-column align-items-center" id="qc-fashion"
+                            data-bs-toggle="dropdown" aria-expanded="false">
                             <img src="images/fashion.png" width="60rem" alt="image">
-                            <p class="mb-0">Fashion</p>
+                            <p class="mb-0">Electronics</p>
                         </div>
                         <ul class="dropdown-menu" aria-labelledby="qc-fashion">
-                            <li><a class="dropdown-item" href="#">My Profile</a></li>
-                            <li><a class="dropdown-item" href="#">Orders</a></li>
-                            <li><a class="dropdown-item" href="#">Wishlists</a></li>
-                            <li><a class="dropdown-item" href="#">Rewards</a></li>
-                            <li>
-                                <hr class="dropdown-divider">
+                            <li class="dropright">
+                                <a class="dropdown-item p-3" href="#">
+                                    Audio
+                                </a>
+                                <ul class="dropdownmenuv list-unstyled shadow">
+                                    <li><a class="dropdownitem text-decoration-none text-dark p-3 d-block fw-bold"
+                                            href="#">More in Audio</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdownitem text-decoration-none text-dark p-3 d-block"
+                                            href="#">All</a></li>
+                                    <li><a class="dropdownitem text-decoration-none text-dark p-3 d-block"
+                                            href="#">Bluetooth Headphone</a></li>
+                                    <li><a class="dropdownitem text-decoration-none text-dark p-3 d-block"
+                                            href="#">Wired Headphone</a></li>
+                                    <li><a class="dropdownitem text-decoration-none text-dark p-3 d-block"
+                                            href="#">TWS</a></li>
+                                    <li><a class="dropdownitem text-decoration-none text-dark p-3 d-block"
+                                            href="#">Bluetooth Speaker</a></li>
+                                    <li><a class="dropdownitem text-decoration-none text-dark p-3 d-block"
+                                            href="#">Speaker</a></li>
+                                    <li><a class="dropdownitem text-decoration-none text-dark p-3 d-block" href="#">Home
+                                            Theatres</a></li>
+                                </ul>
                             </li>
-                            <li class="d-flex">
-                                <a class="dropdown-item" href="#">New Customer</a>
-                                <a href="#" class="text-decoration-none text-primary">SignUp</a>
+                            <li class="dropright">
+                                <a class="dropdown-item p-3" href="#">
+                                    Camera & Accessories
+                                </a>
+                                <ul class="dropdownmenuv list-unstyled shadow">
+                                    <li><a class="dropdownitem text-decoration-none text-dark p-3 d-block fw-bold"
+                                            href="#">More in Camera & Accessories</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdownitem text-decoration-none text-dark p-3 d-block"
+                                            href="#">All</a></li>
+                                    <li><a class="dropdownitem text-decoration-none text-dark p-3 d-block" href="#">DSLR
+                                            & Mirrorless</a></li>
+                                    <li><a class="dropdownitem text-decoration-none text-dark p-3 d-block"
+                                            href="#">Instant Camera</a></li>
+                                    <li><a class="dropdownitem text-decoration-none text-dark p-3 d-block"
+                                            href="#">Camera Tripods</a></li>
+                                    <li><a class="dropdownitem text-decoration-none text-dark p-3 d-block"
+                                            href="#">Camera Lenses</a></li>
+                                    <li><a class="dropdownitem text-decoration-none text-dark p-3 d-block"
+                                            href="#">Drone</a></li>
+                                    <li><a class="dropdownitem text-decoration-none text-dark p-3 d-block"
+                                            href="#">Flashes</a></li>
+                                    <li><a class="dropdownitem text-decoration-none text-dark p-3 d-block"
+                                            href="#">Gimbals</a></li>
+                                </ul>
                             </li>
+                            <li class="dropright">
+                                <a class="dropdown-item p-3" href="#">
+                                    Computer Peripherals
+                                </a>
+                                <ul class="dropdownmenuv list-unstyled shadow">
+                                    <li><a class="dropdownitem text-decoration-none text-dark p-3 d-block fw-bold"
+                                            href="#">More in Computer Peripherals</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdownitem text-decoration-none text-dark p-3 d-block"
+                                            href="#">All</a></li>
+                                    <li><a class="dropdownitem text-decoration-none text-dark p-3 d-block"
+                                            href="#">Printer</a></li>
+                                    <li><a class="dropdownitem text-decoration-none text-dark p-3 d-block"
+                                            href="#">Projectors</a></li>
+                                    <li><a class="dropdownitem text-decoration-none text-dark p-3 d-block"
+                                            href="#">Portable Projectors</a></li>
+                                    <li><a class="dropdownitem text-decoration-none text-dark p-3 d-block" href="#">Ink
+                                            Cartelage</a></li>
+                                    <li><a class="dropdownitem text-decoration-none text-dark p-3 d-block" href="#">Ink
+                                            Bottals</a></li>
+                                    <li><a class="dropdownitem text-decoration-none text-dark p-3 d-block"
+                                            href="#">Lamination Machine</a></li>
+                                </ul>
+                            </li>
+                            <li><a class="dropdown-item" href="#">Gaming</a></li>
                         </ul>
                     </div>
                 </div>
@@ -159,23 +292,69 @@
                 </a>
                 <div class="col-2">
                     <div class="dropdown text-center">
-                        <div class="dropdown-toggle d-flex flex-column align-items-center" id="qc-fashion" ata-bs-toggle="dropdown"
-                            aria-expanded="false">
+                        <div class="dropdown-toggle d-flex flex-column align-items-center" id="qc-fashion"
+                            data-bs-toggle="dropdown" aria-expanded="false">
                             <img src="images/funiture.jpeg" width="60rem" alt="image">
-                            <p class="mb-0">Home & Furniture</p>
+                            <p class="mb-0">Home & Furnitures</p>
                         </div>
                         <ul class="dropdown-menu" aria-labelledby="qc-fashion">
-                            <li><a class="dropdown-item" href="#">My Profile</a></li>
-                            <li><a class="dropdown-item" href="#">Orders</a></li>
-                            <li><a class="dropdown-item" href="#">Wishlists</a></li>
+                            <li><a class="dropdown-item" href="#">Furniture</a></li>
+                            <li class="dropright">
+                                <a class="dropdown-item p-3" href="#">Living Room Furniture</a>
+                                <ul class="dropdownmenuv list-unstyled shadow">
+                                    <li><a class="dropdownitem text-decoration-none text-dark p-3 d-block fw-bold"
+                                            href="#">More in Living Room Furniture</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdownitem text-decoration-none text-dark p-3 d-block"
+                                            href="#">Dining
+                                            Sets</a></li>
+                                    <li><a class="dropdownitem text-decoration-none text-dark p-3 d-block" href="#">Sofa
+                                            Beds</a></li>
+                                    <li><a class="dropdownitem text-decoration-none text-dark p-3 d-block"
+                                            href="#">Sofas Sets &
+                                            Sectionals</a></li>
+                                    <li><a class="dropdownitem text-decoration-none text-dark p-3 d-block"
+                                            href="#">Living Room
+                                            Chairs</a></li>
+                                    <li><a class="dropdownitem text-decoration-none text-dark p-3 d-block" href="#">TV
+                                            Unite</a>
+                                    </li>
+                                    <li><a class="dropdownitem text-decoration-none text-dark p-3 d-block"
+                                            href="#">Cabinet &
+                                            Drowers</a></li>
+                                    <li><a class="dropdownitem text-decoration-none text-dark p-3 d-block"
+                                            href="#">Recliners</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropright">
+                                <a class="dropdown-item p-3" href="#">Kitchen & Dining</a>
+                                <ul class="dropdownmenuv list-unstyled shadow">
+                                    <li><a class="dropdownitem text-decoration-none text-dark p-3 d-block fw-bold"
+                                            href="#">More in Kitchen & Dining</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdownitem text-decoration-none text-dark p-3 d-block"
+                                            href="#">Cookware</a></li>
+                                    <li><a class="dropdownitem text-decoration-none text-dark p-3 d-block"
+                                            href="#">Knives, Choppers & Cutters</a></li>
+                                    <li><a class="dropdownitem text-decoration-none text-dark p-3 d-block" href="#">Gas
+                                            Stove & Accessories</a></li>
+                                    <li><a class="dropdownitem text-decoration-none text-dark p-3 d-block"
+                                            href="#"></a>Kitchen Tools</li>
+                                    <li><a class="dropdownitem text-decoration-none text-dark p-3 d-block" href="#">TV
+                                            Unite</a>
+                                    </li>
+                                    <li><a class="dropdownitem text-decoration-none text-dark p-3 d-block"
+                                            href="#">Cabinet &
+                                            Drowers</a></li>
+                                    <li><a class="dropdownitem text-decoration-none text-dark p-3 d-block"
+                                            href="#">Recliners</a></li>
+                                </ul>
+                            </li>
                             <li><a class="dropdown-item" href="#">Rewards</a></li>
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
-                            <li class="d-flex">
-                                <a class="dropdown-item" href="#">New Customer</a>
-                                <a href="#" class="text-decoration-none text-primary">SignUp</a>
-                            </li>
                         </ul>
                     </div>
                 </div>
@@ -186,11 +365,116 @@
             </div>
         </div>
     </section>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-</body>
-
-</html>
-
+    <section class="frontlineoffer">
+        <div class="px-5 py-2">
+            <div class="row">
+                <div class="col-12 col-lg-3 p-3 bg-light">
+                    <h4 class="h4 py-1" style="color: black;;">Explore more from small business</h4>
+                    <div class="row">
+                        <div class="col-6">
+                            <img src="images/floffer1.jpg" style="width: 10rem;" alt="image">
+                            <p class="p" style="font-size: .8rem;">Ethic, dresses & more</p>
+                        </div>
+                        <div class="col-6">
+                            <img src="images/floffer2.jpg" style="width: 10rem;" alt="image">
+                            <p class="p" style="font-size: .8rem;">Decor</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-6">
+                            <img src="images/floffer3.jpg" style="width: 10rem;" alt="image">
+                            <p class="p" style="font-size: .8rem;">Faashion accessories</p>
+                        </div>
+                        <div class="col-6">
+                            <img src="images/floffer4.jpg" style="width: 10rem;" alt="image">
+                            <p class="p" style="font-size: .8rem;">Glassware & drinkware</p>
+                        </div>
+                    </div>
+                    <div class="d-grid">
+                        <button type="button" class="btn btn-light btn-block" style="font-size: .8rem;">Explore all</button>
+                      </div> 
+                </div>
+                <div class="col-12 col-lg-3 p-3 bg-light">
+                    <h4 class="h4 py-1" style="color: black;;">Starting ₹199 | Amazon Brands & more</h4>
+                    <div class="row">
+                        <div class="col-6">
+                            <img src="images/floffer9.jpg" style="width: 10rem;" alt="image">
+                            <p class="p" style="font-size: .8rem;">Start ₹199 | Bedsheets</p>
+                        </div>
+                        <div class="col-6">
+                            <img src="images/floffer10.jpg" style="width: 10rem;" alt="image">
+                            <p class="p" style="font-size: .8rem;">Start ₹199 | Curtains</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-6">
+                            <img src="images/floffe11.jpg" style="width: 10rem;" alt="image">
+                            <p class="p" style="font-size:">Minimum 40% off | Ironing board & more</p>
+                        </div>
+                        <div class="col-6">
+                            <img src="images/floffe12.jpg" style="width: 10rem;" alt="image">
+                            <p class="p" style="font-size: .8rem;">Upto 60% off | Home decor</p>
+                        </div>
+                    </div>
+                    <div class="d-grid">
+                        <button type="button" class="btn btn-light btn-block" style="font-size: .8rem;">Explore all</button>
+                      </div> 
+                </div>
+                <div class="col-12 col-lg-3 p-3 bg-light">
+                    <h4 class="h4 py-1" style="color: black;;">Automotive essentials | Upto 60% off</h4>
+                    <div class="row">
+                        <div class="col-6">
+                            <img src="images/floffer13.jpg" style="width: 10rem;" alt="image">
+                            <p class="p" style="font-size: .8rem;">Cleaning device</p>
+                        </div>
+                        <div class="col-6">
+                            <img src="images/floffer14.jpg" style="width: 10rem;" alt="image">
+                            <p class="p" style="font-size: .8rem;">Tyre & rim care</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-6">
+                            <img src="images/floffer15.jpg" style="width: 10rem;" alt="image">
+                            <p class="p" style="font-size: .8rem;">Helmets</p>
+                        </div>
+                        <div class="col-6">
+                            <img src="images/floffer16.jpg" style="width: 10rem;" alt="image">
+                            <p class="p" style="font-size: .8rem;">Vaccum cleaner</p>
+                        </div>
+                    </div>
+                    <div class="d-grid">
+                        <button type="button" class="btn btn-light btn-block" style="font-size: .8rem;">Explore all</button>
+                      </div> 
+                </div>
+                <div class="col-12 col-lg-3 p-3 bg-light">
+                    <h4 class="h4 py-1" style="color: black;;">Revamp your home in style</h4>
+                    <div class="row">
+                        <div class="col-6">
+                            <img src="images/floffer5.jpg" style="width: 10rem;" alt="image">
+                            <p class="p" style="font-size: .8rem;">Cushion cover & bedsheets</p>
+                        </div>
+                        <div class="col-6">
+                            <img src="images/floffer6.jpg" style="width: 10rem;" alt="image">
+                            <p class="p" style="font-size: .8rem;">Figurines, vases & more</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-6">
+                            <img src="images/floffer7.jpg" style="width: 10rem;" alt="image">
+                            <p class="p" style="font-size: .8rem;">Home storage</p>
+                        </div>
+                        <div class="col-6">
+                            <img src="images/floffer58.jpg" style="width: 10rem;" alt="image">
+                            <p class="p" style="font-size: .8rem;">Lighting solutions</p>
+                        </div>
+                    </div>
+                    <div class="d-grid">
+                        <button type="button" class="btn btn-light btn-block" style="font-size: .8rem;">Explore all</button>
+                      </div> 
+                </div>
+            </div>
+        </div>
+    </section>
 </body>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>

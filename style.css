@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 .navbar-header img {
@@ -37,24 +38,61 @@
 .dropdown:hover .dropdown-menu {
   display: block;
   margin-top: 0;
-}
-
-.dropdown:hover .dropdown-menu {
-  display: block;
-}
-
-.dropdown-item:hover {
-  background-color: var(--bs-warning);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .dropdown:hover .nav-link {
   background-color: var(--bs-warning); 
 }
-.dropdown a:hover .nav-link {
-  color: var(--bs-dark); 
-}
 .dropdown-toggle::after {
   display: inline-block;
   margin-left: 5px;
   vertical-align: middle;
+}
+/* Parent Dropdown (Right-aligned submenu) */
+.dropright {
+  position: relative;
+}
+
+/* Submenu Styles */
+.dropright .dropdownmenuv {
+  background: #f8f9fa;
+  border-left: 2px solid #e6e6e6;
+  border-radius: 0.25rem;
+  position: absolute;
+  left: 100%;
+  top: 0;
+  z-index: 1000;
+  display: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.dropright:hover > .dropdownmenuv {
+  display: block;
+}
+
+.dropdown-menu .dropdown-item {
+  transition: all .1s ease-in;
+}
+.dropdown-menu .dropdown-item:hover {
+  background-color: #d5eaff;
+  color: #007bff;
+  font-weight: bold;
+}
+.dropdownmenuv .dropdownitem {
+  padding: 0.75rem 1rem;
+  white-space: nowrap;
+  transition: all 0.2s ease-in-out;
+  font-size: .8rem;
+}
+
+.dropdownmenuv .dropdownitem:hover {
+  background-color: #d5eaff;
+  color: #007bff;
+  font-weight: bold;
+}
+
+/* Optional: Add spacing between items */
+.dropdownmenuv li:not(:last-child) {
+  border-bottom: 1px solid #f0f0f0;
 }
