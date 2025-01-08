@@ -92,7 +92,15 @@
   font-weight: bold;
 }
 
-/* Optional: Add spacing between items */
 .dropdownmenuv li:not(:last-child) {
   border-bottom: 1px solid #f0f0f0;
+}
+.horizentaltopdeals .container .bg-light .d-flex .d-flex p {
+  white-space: nowrap;
+}
+.horizentaltopdeals .container .bg-light .d-flex .d-flex img {
+  height: 10rem;
+}
+.horizentaltopdeals .container .bg-light .d-flex .d-flex {
+  transition: background-color .2s ease-in;
 }

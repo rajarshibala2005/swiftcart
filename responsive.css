@@ -1,0 +1,9 @@
+@media screen and (max-width: 992px){
+    .horizentaltopdeals .container .bg-light .d-flex .d-flex img {
+        height: 5rem;
+
+      }
+      .horizentaltopdeals .container .bg-light .d-flex .d-flex:hover {
+        background-color: rgb(244, 244, 244);
+      }
+}
