@@ -95,12 +95,13 @@
 .dropdownmenuv li:not(:last-child) {
   border-bottom: 1px solid #f0f0f0;
 }
-.horizentaltopdeals .container .bg-light .d-flex .d-flex p {
+.horizentaltopdeals .px-5 .bg-light .d-flex .d-flex p {
   white-space: nowrap;
 }
-.horizentaltopdeals .container .bg-light .d-flex .d-flex img {
+.horizentaltopdeals .px-5 .bg-light .d-flex .d-flex img {
   height: 10rem;
+  padding-bottom: 1rem;
 }
-.horizentaltopdeals .container .bg-light .d-flex .d-flex {
+.horizentaltopdeals .px-5 .bg-light .d-flex .d-flex {
   transition: background-color .2s ease-in;
 }
