@@ -95,13 +95,22 @@
 .dropdownmenuv li:not(:last-child) {
   border-bottom: 1px solid #f0f0f0;
 }
-.horizentaltopdeals .px-5 .bg-light .d-flex .d-flex p {
+.frontlineoffer .offerframe {
+  padding: 0 6rem;
+}
+.frontlineoffer .offerframe .row .col-12 .row .col-6 img{
+  width: 9rem;
+}
+.horizentaltopdeals .topdealframe {
+  padding: 0 8rem;
+}
+.horizentaltopdeals .topdealframe .bg-light .d-flex .d-flex p {
   white-space: nowrap;
 }
-.horizentaltopdeals .px-5 .bg-light .d-flex .d-flex img {
+.horizentaltopdeals .topdealframe .bg-light .d-flex .d-flex img {
   height: 10rem;
   padding-bottom: 1rem;
 }
-.horizentaltopdeals .px-5 .bg-light .d-flex .d-flex {
+.horizentaltopdeals .topdealframe .bg-light .d-flex .d-flex {
   transition: background-color .2s ease-in;
 }
