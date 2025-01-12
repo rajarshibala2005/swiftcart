@@ -1,4 +1,7 @@
 @media screen and (max-width: 992px){
+  .frontlineoffer .offerframe {
+    padding: 0 1rem;
+  }
     .horizentaltopdeals .topdealframe .bg-light .d-flex .d-flex img {
         height: 5rem;
         padding-right: 1rem;

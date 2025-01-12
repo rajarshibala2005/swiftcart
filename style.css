@@ -120,5 +120,6 @@
 }
 .travelpicks .picksframe .bg-light .row .col-6 img {
   height: 18rem;
+  width: auto;
   padding-bottom: 1rem;
 }
