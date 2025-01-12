@@ -108,9 +108,17 @@
   white-space: nowrap;
 }
 .horizentaltopdeals .topdealframe .bg-light .d-flex .d-flex img {
-  height: 10rem;
+  height: 11rem;
   padding-bottom: 1rem;
 }
 .horizentaltopdeals .topdealframe .bg-light .d-flex .d-flex {
+  padding: 0 2rem;
   transition: background-color .2s ease-in;
+}
+.travelpicks .picksframe {
+  padding: 0 8rem;
+}
+.travelpicks .picksframe .bg-light .row .col-6 img {
+  height: 18rem;
+  padding-bottom: 1rem;
 }
