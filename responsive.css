@@ -1,23 +1,32 @@
-@media screen and (max-width: 992px){
+/* lg */
+@media screen and (max-width: 992px) {
   .frontlineoffer .offerframe {
     padding: 0 1rem;
   }
-    .horizentaltopdeals .topdealframe .bg-light .d-flex .d-flex img {
-        height: 5rem;
-        padding-right: 1rem;
 
-      }
-      .horizentaltopdeals .topdealframe .bg-light .d-flex .d-flex:hover {
-        background-color: rgb(244, 244, 244);
-      }
-      
-      .horizentaltopdeals .topdealframe {
-        padding: 0;
-      }
-      .horizentaltopdeals .topdealframe .bg-light .d-flex .d-flex {
-        padding: 1rem 0;
-      }
-      .travelpicks .picksframe {
-        padding: 0;
-      }
+  .horizentaltopdeals .topdealframe .bg-light .d-flex .d-flex img {
+    height: 5rem;
+    padding-right: 1rem;
+
+  }
+
+  .horizentaltopdeals .topdealframe .bg-light .d-flex .d-flex:hover {
+    background-color: rgb(244, 244, 244);
+  }
+
+  .horizentaltopdeals .topdealframe {
+    padding: 0;
+  }
+
+  .horizentaltopdeals .topdealframe .bg-light .d-flex .d-flex {
+    padding: 1rem 0;
+  }
+
+  .travelpicks .picksframe {
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  
 }

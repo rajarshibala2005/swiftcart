@@ -96,10 +96,17 @@
   border-bottom: 1px solid #f0f0f0;
 }
 .frontlineoffer .offerframe {
-  padding: 0 6rem;
+  padding: 0 2rem;
+  box-sizing: border-box;
+}
+.frontlineoffer .offerframe .row {
+  box-sizing: border-box;
 }
 .frontlineoffer .offerframe .row .col-12 .row .col-6 img{
-  width: 9rem;
+  width: 12rem;
+}
+.frontlineoffer .offerframe .row .col-12 .row .col-6 p{
+  font-size: .8rem;
 }
 .horizentaltopdeals .topdealframe {
   padding: 0 8rem;
