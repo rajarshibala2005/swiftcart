@@ -5,7 +5,7 @@
 }
 
 .navbar-header img {
-    width: 40px;
+  width: 40px;
 }
 
 .navLocator:hover,
@@ -15,11 +15,11 @@
 }
 
 .navbar-toggler {
-    border: none;
+  border: none;
 }
 
 .form-control::placeholder {
-    font-size: 0.9rem;
+  font-size: 0.9rem;
 }
 
 .navBrandName {
@@ -42,13 +42,15 @@
 }
 
 .dropdown:hover .nav-link {
-  background-color: var(--bs-warning); 
+  background-color: var(--bs-warning);
 }
+
 .dropdown-toggle::after {
   display: inline-block;
   margin-left: 5px;
   vertical-align: middle;
 }
+
 /* Parent Dropdown (Right-aligned submenu) */
 .dropright {
   position: relative;
@@ -67,18 +69,22 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.dropright:hover > .dropdownmenuv {
+.dropright:hover>.dropdownmenuv {
   display: block;
 }
 
 .dropdown-menu .dropdown-item {
+  position: relative;
+  z-index: 2;
   transition: all .1s ease-in;
 }
+
 .dropdown-menu .dropdown-item:hover {
   background-color: #d5eaff;
   color: #007bff;
   font-weight: bold;
 }
+
 .dropdownmenuv .dropdownitem {
   padding: 0.75rem 1rem;
   white-space: nowrap;
@@ -92,39 +98,64 @@
   font-weight: bold;
 }
 
+.introsec {
+  position: relative;
+}
+
+.frontlineoffer {
+  position: absolute;
+  top: 30%;
+  z-index: 1;
+}
+
+.carousel-inner img {
+  margin: 0 auto;
+}
+
 .dropdownmenuv li:not(:last-child) {
   border-bottom: 1px solid #f0f0f0;
 }
+
+
 .frontlineoffer .offerframe {
   padding: 0 2rem;
   box-sizing: border-box;
 }
+
 .frontlineoffer .offerframe .d-flex .col {
   border-radius: 5%;
 }
-.frontlineoffer .offerframe .d-flex .col .row .col-6 img{
+
+.frontlineoffer .offerframe .d-flex .col .row .col-6 img {
   width: 1000rem;
 }
-.frontlineoffer .offerframe .d-flex .col .row .col-6 p{
+
+.frontlineoffer .offerframe .d-flex .col .row .col-6 p {
   font-size: .6rem;
 }
+
 .horizentaltopdeals .topdealframe {
   padding: 0 8rem;
 }
+
 .horizentaltopdeals .topdealframe .bg-light .d-flex .d-flex p {
   white-space: nowrap;
 }
+
 .horizentaltopdeals .topdealframe .bg-light .d-flex .d-flex img {
   height: 12rem;
   padding-bottom: 1rem;
 }
+
 .horizentaltopdeals .topdealframe .bg-light .d-flex .d-flex {
-  padding: 0 1rem;
+  padding: 0 1.5rem;
   transition: background-color .2s ease-in;
 }
+
 .travelpicks .picksframe {
   padding: 0 8rem;
 }
+
 .travelpicks .picksframe .bg-light .row .col-6 img {
   height: 18rem;
   width: auto;
