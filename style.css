@@ -96,14 +96,14 @@
   border-bottom: 1px solid #f0f0f0;
 }
 .frontlineoffer .offerframe {
-  padding: 0 2rem;
+  padding: 0 6rem;
   box-sizing: border-box;
 }
-.frontlineoffer .offerframe .row {
-  box-sizing: border-box;
+.frontlineoffer .offerframe .d-flex .col {
+  border-radius: 5%;
 }
-.frontlineoffer .offerframe .row .col-12 .row .col-6 img{
-  width: 12rem;
+.frontlineoffer .offerframe .d-flex .col .row .col-6 .row .col-6 img{
+  width: 1000rem;
 }
 .frontlineoffer .offerframe .row .col-12 .row .col-6 p{
   font-size: .8rem;
