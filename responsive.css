@@ -1,3 +1,11 @@
+@media screen and (max-width: 602px) {
+  .frontlineoffer .offerframe .d-flex .col h4{
+    font-size: 1rem;
+  }
+  .frontlineoffer .offerframe .d-flex .col .row .col-6 p{
+    font-size: .5rem;
+  }
+}
 /* lg */
 @media screen and (max-width: 992px) {
   .frontlineoffer .offerframe {

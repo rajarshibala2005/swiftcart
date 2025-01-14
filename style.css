@@ -96,17 +96,17 @@
   border-bottom: 1px solid #f0f0f0;
 }
 .frontlineoffer .offerframe {
-  padding: 0 6rem;
+  padding: 0 2rem;
   box-sizing: border-box;
 }
 .frontlineoffer .offerframe .d-flex .col {
   border-radius: 5%;
 }
-.frontlineoffer .offerframe .d-flex .col .row .col-6 .row .col-6 img{
+.frontlineoffer .offerframe .d-flex .col .row .col-6 img{
   width: 1000rem;
 }
-.frontlineoffer .offerframe .row .col-12 .row .col-6 p{
-  font-size: .8rem;
+.frontlineoffer .offerframe .d-flex .col .row .col-6 p{
+  font-size: .6rem;
 }
 .horizentaltopdeals .topdealframe {
   padding: 0 8rem;
@@ -115,11 +115,11 @@
   white-space: nowrap;
 }
 .horizentaltopdeals .topdealframe .bg-light .d-flex .d-flex img {
-  height: 11rem;
+  height: 12rem;
   padding-bottom: 1rem;
 }
 .horizentaltopdeals .topdealframe .bg-light .d-flex .d-flex {
-  padding: 0 2rem;
+  padding: 0 1rem;
   transition: background-color .2s ease-in;
 }
 .travelpicks .picksframe {
