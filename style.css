@@ -100,38 +100,61 @@
 
 .introsec {
   position: relative;
+  padding-bottom: 6rem;
+  overflow: visible;
+}
+
+.slides {
+  position: relative;
+}
+
+.carousel-inner img {
+  margin: auto;
 }
 
 .frontlineoffer {
   position: absolute;
   top: 30%;
   z-index: 1;
+  width: 100%;
 }
 
-.carousel-inner img {
-  margin: 0 auto;
+.frontlineoffer .offerframe {
+  position: relative;
+  z-index: 10;
+}
+
+.offerframe {
+  padding: 1rem;
+}
+
+.offerframe .d-flex .d-flex .col {
+  background: #000;
+  border-radius: 8px;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.offerframe .d-flex .d-flex .col .row .col-6 img {
+  border-radius: 5%;
+  width: 100rem;
+}
+
+.offerframe .d-flex .d-flex .col .row .col-6 p {
+  font-size: 0.6rem;
+}
+
+.offerframe .d-flex .d-flex .col h4 {
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.offerframe .btn {
+  font-size: 0.85rem;
 }
 
 .dropdownmenuv li:not(:last-child) {
   border-bottom: 1px solid #f0f0f0;
-}
-
-
-.frontlineoffer .offerframe {
-  padding: 0 2rem;
-  box-sizing: border-box;
-}
-
-.frontlineoffer .offerframe .d-flex .col {
-  border-radius: 5%;
-}
-
-.frontlineoffer .offerframe .d-flex .col .row .col-6 img {
-  width: 1000rem;
-}
-
-.frontlineoffer .offerframe .d-flex .col .row .col-6 p {
-  font-size: .6rem;
 }
 
 .horizentaltopdeals .topdealframe {
