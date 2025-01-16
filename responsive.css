@@ -1,7 +1,8 @@
 @media screen and (max-width: 602px) {
-  .frontlineoffer .offerframe .d-flex .col .row .col-6 p{
+  .frontlineoffer .offerframe .d-flex .col .row .col-6 p {
     font-size: .5rem;
   }
+
   .frontlineoffer {
     top: 20%;
   }
@@ -11,46 +12,62 @@
   .introsec {
     padding-bottom: 1rem;
   }
+
   .travelpicks .picksframe {
     padding: 0 1rem;
   }
+
   .horizentaltopdeals .topdealframe {
     padding: 0 1rem;
   }
+
+  .horizentaltopdeals .topdealframe .bg-light .d-flex .d-flex img {
+    height: 10rem;
+  }
 }
+
 @media screen and (max-width: 1238px) {
   .introsec {
     padding-bottom: 2rem;
   }
+
   .offerframe .d-flex .d-flex .col .row .col-6 p {
     font-size: 0.4rem;
   }
+
   .offerframe .d-flex .d-flex .col h4 {
     font-size: 1rem;
   }
+
   .travelpicks .picksframe {
     padding: 0;
   }
+
   .horizentaltopdeals .topdealframe {
     padding: 0;
   }
+
   .horizentaltopdeals .topdealframe .bg-light .d-flex .d-flex img {
     height: 10rem;
     width: auto;
   }
+
   .travelpicks .picksframe .bg-light .row .col-6 img {
     height: 15rem;
     width: auto;
     padding-bottom: 1rem;
   }
 }
+
 @media screen and (max-width: 999px) {
   .introsec {
     padding-bottom: .5rem;
   }
+
   .frontlineoffer {
     top: 32%;
   }
+
   .frontlineoffer .offerframe {
     padding: 0 1rem;
   }
@@ -68,24 +85,38 @@
     padding: 1rem 0;
   }
 }
+
 @media screen and (max-width: 992px) {
   .introsec {
-    padding-bottom: 1rem
-    ;
+    padding-bottom: 1rem;
   }
 }
+
 @media screen and (width: 991px) {
   .introsec {
-    padding-bottom: 42rem
-    ;
+    padding-bottom: 42rem;
   }
 }
-@media screen and (max-width: 991px) {
-  .introsec {
+
+@media screen and (max-width: 992px) {
+  
+  /* .introsec {
     padding-bottom: 42rem
     ;
     .frontlineoffer {
       top: 20%;
     }
+    } */
+    .frontlineoffer {
+      position: relative;
+  }
+  
+  .introsec {
+    padding-bottom: 0;
+  }
+}
+@media screen and (width: 521px) {
+  .offerframe .d-flex .d-flex .col h4 {
+    font-size: .1rem;
   }
 }
