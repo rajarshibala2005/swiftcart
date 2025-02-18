@@ -90,6 +90,7 @@
   .introsec {
     padding-bottom: 1rem;
   }
+
 }
 
 @media screen and (width: 991px) {
@@ -118,5 +119,10 @@
 @media screen and (width: 521px) {
   .offerframe .d-flex .d-flex .col h4 {
     font-size: .1rem;
+  }
+}
+@media screen and (width: 534px) {
+  .navbar .container-fluid .d-flex {
+    display: none;
   }
 }

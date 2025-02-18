@@ -18,12 +18,22 @@
 
 <body style="background-color: #e3e6e6;">
     <header>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark text-light">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark bg-sm-dark text-dark text-sm-light">
             <div class="container-fluid">
-                <a href="#" class="d-flex align-items-center navbar-header text-decoration-none">
+                <a href="#" class="d-none d-sm-flex align-items-center navbar-header text-decoration-none">
                     <img src="images/favicon.png" alt="Logo" class="rounded-pill">
                     <h1 class="h1 navBrandName navbar-brand ps-2 fs-5">SwiftCart</h1>
                 </a>
+
+                <form class="d-block d-lg-none flex-grow-1 mx-2 mt-2 mt-lg-0">
+                    <div class="input-group">
+                        <input class="form-control" type="search" placeholder="Search SwiftCart"
+                            aria-label="Search">
+                        <button class="btn btn-warning rounded" type="submit">
+                            <i class="fas fa-search"></i>
+                        </button>
+                    </div>
+                </form>
 
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent"
                     aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
